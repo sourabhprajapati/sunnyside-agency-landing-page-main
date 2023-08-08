@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+ 
+  display:flex;
+  justify-content: space-between;
+  
+  position: relative;
+  z-index: 2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header h2{
+  margin-left: 30px;
   color: white;
+  font-family: [Barlow];
+  
+}
+.nav-bar{
+  display: flex;
+ list-style-type: none;
+
+
+}
+.nav-bar li{
+  padding: 6px 50px;
+  color: white;
+  font-weight: 600;
+
+}
+.nav-bar button{
+  height: 40px;
+  margin-top: 13px;
+  margin-right: 15px;
+  background-color: white;
+  font-size: large;
+  border: none;
+  width: 100px;
+  border-radius: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.hii{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.yo{
+  z-index: 2;
+  position: absolute;
+ 
+ 
+  color: white;
+  left: 26%;;
+  font-family:[Fraunces];
+  font-size: 80px;
+  letter-spacing: 18px;
+  font-family: 900;
+  top: 20%;
+}
+.yo1{
+  z-index: 2;
+  position: absolute;
+  left: 47%;
+  top: 46%;
+
+}
+section{
+  
+position: absolute;
+width: 100vw;
+height: 220vh;
+top: 101%;
+background-color: black;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.container1{
+
+  padding: 236px;
+  background-color:#FFFBF8;
+  
+}
+.container1 h1{
+ font-family: Barlow;
+ font-weight: 1500;
+ font-size: 50px;
+ color: #2A343E;
+}
+.container1 p{
+  color: grey;
+  font-weight: 700;
+}
+.container1 h5{
+  text-align: center;
+  color:#2A343E ;
+  font-family: Barlow;
+  font-weight: bold;
+}
+.container2{
+ 
+  
+}
+.container2-img{
+  width: 100%;
+  height: 100%;
+}
+.container3{
+  
+ 
+  
+}
+.container3-img{
+  width: 100%;
+  height: 100%;
+}
+.container4{
+  
+  padding: 236px;
+  background-color:#FFFBF8;
+  
+}
+.container4 h1{
+  font-family: Barlow;
+  font-weight: 1500;
+  font-size: 50px;
+  color: #2A343E;
+ }
+ .container4 p{
+   color: grey;
+   font-weight: 700;
+ }
+ .container4 h5{
+   text-align: center;
+   color:#2A343E ;
+   font-family: Barlow;
+   font-weight: bold;
+ }
+.container5{
+  
+  background-color:yellow;
+  position: relative;
+}
+.container5-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.hii{
+  padding-top: 593px;
+padding-left: 285px;
+
+}
+.hii h1{
+  margin-left: 64px;
+  font-size: 50px;
+  font-family: Barlow;
+}
+.container6{
+  
+ 
+  
+}
+.container6-img{
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
